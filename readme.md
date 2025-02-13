@@ -7,7 +7,7 @@
 ![Imagem original](https://github.com/YamanduGermano/Desafio-CSS-TechWeb/blob/d0b22855bd5621813b20c9bfb0494a9143875192/original.png)
 
 ## Arquivo de referência:
-![Imagem de referência](https://github.com/YamanduGermano/Desafio-CSS-TechWeb/blob/d0b22855bd5621813b20c9bfb0494a9143875192/original.png)
+![Imagem de referência](https://github.com/YamanduGermano/Desafio-CSS-TechWeb/blob/d0b22855bd5621813b20c9bfb0494a9143875192/referencia.png)
 
-> Yamandú Germano Cavalcanti
+> Yamandú Germano Cavalcanti\
 yamandu.germano@gmail.com
