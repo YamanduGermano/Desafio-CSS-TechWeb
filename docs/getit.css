@@ -121,6 +121,10 @@ html,body,input,textarea {
   font-weight: bold;
 }
 
+.autoresize{
+  resize: none;
+}
+
 /* --------------------------------- */
 /* CARDS */
 .card-container{
