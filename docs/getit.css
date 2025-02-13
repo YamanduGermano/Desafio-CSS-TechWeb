@@ -1,0 +1,218 @@
+:root{
+  /* Amarelos */
+  --amarelo1:#e4fc2b;
+  --amarelo2:#e0d426;
+  --amarelo3:#f7d736;
+  --amarelo4:#fcb02b;
+  --amarelo5:#e0af26;
+
+  /* Cinza */
+  --cinza1:#2c2c2c;
+  --cinza2:#4c4c4c;
+
+  /* Cards */
+  --cards1:#ead3a7;
+  --cards2:#9de0f5;
+  --cards3:#ef89ba;
+  --cards4:#fae890;
+  --cards5:#abe9c1;
+
+  --max-rotation:6deg;
+}
+
+html,body{
+  margin: 0px;
+}
+html,body,input,textarea {
+  font-family: 'Roboto', sans-serif;
+}
+
+.btn {
+  position: relative;
+  display: block;
+  padding: 10px 15px;
+
+  overflow: hidden;
+
+  border-width: 0;
+  outline: none;
+  border-radius: 2px;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.6);
+
+  background-color: #f7d736;
+
+  transition: background-color 0.3s;
+}
+
+.btn > * {
+  position: relative;
+}
+
+.btn:before {
+  content: "";
+
+  position: absolute;
+  top: 50%;
+  left: 50%;
+
+  display: block;
+  width: 0;
+  padding-top: 0;
+
+  border-radius: 100%;
+
+  background-color: rgba(236, 240, 241, 0.3);
+
+  -webkit-transform: translate(-50%, -50%);
+  -moz-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  -o-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+
+.btn:active:before {
+  width: 120%;
+  padding-top: 120%;
+
+  transition: width 0.2s ease-out, padding-top 0.2s ease-out;
+}
+
+/* --------------------------------- */
+/* HEADER */
+.appbar{
+  display: flex;
+  gap:1.5rem;
+  align-items: center;
+  padding-inline: 1rem;
+  padding-block: .5rem;
+  background-color: var(--amarelo3);
+  box-shadow: 0px 10px 10px #4c4c4c67;
+}
+
+.logo{
+  height: 4rem;
+}
+
+.subtitle{
+  font-size: 1.3rem;
+}
+
+/* --------------------------------- */
+/* FORM */
+.form-card{
+  display: flex;
+  flex-direction: column;
+  width: 40vw;
+  margin-inline: auto;
+  gap:.5rem;
+  padding:.7rem;
+  box-shadow: 0px 10px 15px #4c4c4c67;
+  border-radius: .5rem;
+  margin-block:3rem
+}
+
+.form-card > * {
+  border: none;
+}
+
+.form-card-title{
+  font-size: 1.5rem;
+}
+
+/* --------------------------------- */
+/* CARDS */
+.card-container{
+  display: flex;
+  gap:2rem;
+  padding-inline: 3rem;
+  flex-wrap: wrap;
+  justify-content: space-around;
+
+}
+
+.card{
+  font-family: 'Permanent Marker', cursive;
+  display:flex;
+  flex-direction: column;
+  gap:.7rem;
+  padding: .7rem;
+  width: 15rem;
+  box-shadow: 0px 10px 15px #4c4c4c67;
+  border-radius: .3rem;
+  height: 8rem;
+}
+
+.card-content{
+  margin:auto;
+}
+
+.card-title{
+  font-size: 1.3rem;
+}
+
+/* --------------------------------- */
+/* CLASSES DE VARIAÇÃO DE CARD */
+
+.card-color-1{
+  background-color: var(--cards1);
+}
+
+.card-color-2{
+  background-color: var(--cards2);
+}
+
+.card-color-3{
+  background-color: var(--cards3);
+}
+
+.card-color-4{
+  background-color: var(--cards4);
+}
+
+.card-color-5{
+  background-color: var(--cards5);
+}
+
+.card-rotation-1{
+  transform: rotate(calc(1*var(--max-rotation)));
+}
+
+.card-rotation-2{
+  transform: rotate(calc(.8*var(--max-rotation)));
+}
+
+.card-rotation-3{
+  transform: rotate(calc(.6*var(--max-rotation)));
+}
+
+.card-rotation-4{
+  transform: rotate(calc(.4*var(--max-rotation)));
+}
+
+.card-rotation-5{
+  transform: rotate(calc(.2*var(--max-rotation)));
+}
+
+.card-rotation-6{
+  transform: rotate(calc(0*var(--max-rotation)));
+}
+
+.card-rotation-7{
+  transform: rotate(calc(-.2*var(--max-rotation)));
+}
+
+.card-rotation-8{
+  transform: rotate(-calc(-.4*var(--max-rotation)));
+}
+
+.card-rotation-9{
+  transform: rotate(calc(-.6*var(--max-rotation)));
+}
+
+.card-rotation-10{
+  transform: rotate(calc(-.8*var(--max-rotation)));
+}
+
+.card-rotation-11{
+  transform: rotate(calc(-1*var(--max-rotation)));
+}
