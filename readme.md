@@ -9,5 +9,7 @@
 ## Arquivo de referência:
 ![Imagem de referência](https://github.com/YamanduGermano/Desafio-CSS-TechWeb/blob/d0b22855bd5621813b20c9bfb0494a9143875192/referencia.png)
 
+### [Link para o Github Pages](https://yamandugermano.github.io/Desafio-CSS-TechWeb/)
+
 > Yamandú Germano Cavalcanti\
 yamandu.germano@gmail.com
