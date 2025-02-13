@@ -123,7 +123,7 @@ html,body,input,textarea {
 /* CARDS */
 .card-container{
   display: flex;
-  gap:2rem;
+  gap:1.5rem;
   padding-inline: 3rem;
   flex-wrap: wrap;
   justify-content: space-around;
