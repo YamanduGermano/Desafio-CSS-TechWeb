@@ -33,6 +33,7 @@ html,body,input,textarea {
   padding: 10px 15px;
 
   overflow: hidden;
+  font-size:1.1rem;
 
   border-width: 0;
   outline: none;
@@ -117,6 +118,7 @@ html,body,input,textarea {
 
 .form-card-title{
   font-size: 1.5rem;
+  font-weight: bold;
 }
 
 /* --------------------------------- */
@@ -145,6 +147,7 @@ html,body,input,textarea {
 
 .card-content{
   margin:auto;
+  color:var(--cinza2)
 }
 
 .card-title{
